@@ -1,0 +1,56 @@
+/* src/components/IncidentList.css */
+
+.incident-list {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    width: 100%;
+    max-width: 300px; /* Adjust width for the card */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .add-incident {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #0cb300;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  
+  .view-details {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .delete-button {
+    margin-left: 10px;
+    background-color: #d9dc35; /* Bootstrap danger color */
+    color: white;
+  }
+
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+
+  
