@@ -1,12 +1,12 @@
 # Environment 
 
-Node v20+
-
+- Node v20.12.2+
+- npm 10.5.0+
 ## Build and run
 
 In the project directory, run:
 
-`npm i`
+`npm i` <br/>
 `npm start`
 
 Runs the app in the development mode.\
